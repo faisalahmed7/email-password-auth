@@ -9,6 +9,9 @@ import { useState } from 'react';
 
 const auth = getAuth(app);
 
+
+/* Register and Login Form Creation */
+
 function App() {
   const [validated, setValidated] = useState(false);
   const [registered, setRegister] = useState(false)
